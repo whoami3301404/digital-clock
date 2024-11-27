@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "dsDigit";
+    src: url("../public/assets/fonts/ds/DS-DIGIT.TTF") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: "hackBold";
+    src: url("../public/assets/fonts/hack/Hack-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../public/assets/images/bg.jpg") no-repeat center / cover;
+}
+.container {
+    max-width: 70rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

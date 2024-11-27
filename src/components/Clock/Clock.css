@@ -1,0 +1,26 @@
+.time-container {
+    background-color: #00000090;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 3rem;
+    box-shadow: 5px 5px 1rem #000;
+}
+.clock {
+    font-family: dsDigit;
+    font-size: 5rem;
+    color: #fff;
+    width: 201px;
+    text-align: center;
+}
+.separator {
+    margin: 0 10px;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    from {opacity: 0;};
+    to {opacity: 1;};
+}

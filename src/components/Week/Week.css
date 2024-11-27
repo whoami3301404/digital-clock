@@ -1,0 +1,14 @@
+.week-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 0;
+    text-transform: uppercase;
+    color: #555;
+    font-family: hackBold;
+    font-size: 12px;
+}
+.active {
+    color: #fff;
+}
